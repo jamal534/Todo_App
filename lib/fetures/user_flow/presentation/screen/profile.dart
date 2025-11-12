@@ -77,6 +77,8 @@ class ProfileScreen extends StatelessWidget {
                           case 4:
                           Get.to(() => HelpSupportScreen());
                           break;
+                        case 5:
+                          break;
                         default:
                       }
                     },
