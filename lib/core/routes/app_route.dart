@@ -9,6 +9,7 @@ import 'package:spark_tech_task/fetures/navBar/presentation/bottom_navBar.dart';
 import 'package:spark_tech_task/fetures/user_flow/presentation/screen/changePassword.dart';
 import '../../fetures/onbording/screen/onbording_screen.dart';
 import '../../fetures/splash/screen/splash_screen.dart';
+import '../../fetures/user_flow/presentation/screen/editProfie.dart';
 
 class AppRoute {
   static String splashScreen = "/splashScreen";
@@ -21,18 +22,20 @@ class AppRoute {
   static String bottomNavbar = "/bottomNavbar";
   static String profileDetails = "/profileDetails";
   static String changePassword = "/changePassword";
+  static String editeProfile = "/editeProfile";
 
 
   static List<GetPage> route = [
     GetPage(name: splashScreen, page: () => SplashScreen()),
     GetPage(name: onbordingScreen, page: () => OnboardingView()),
-    GetPage(name: singUpScreen, page: () => SingupScreen()),
+    GetPage(name: singUpScreen, page: () => SignupScreen()),
     GetPage(name: loginScreen, page: () => LoginScreen()),
     GetPage(name: singUpEmail, page: () => SingUpEmail()),
     GetPage(name: singUpOtp, page: () => SingUpOtp()),
     GetPage(name: setNewPassword, page: () => SetNewPassword()),
     GetPage(name: bottomNavbar, page: () => NavBar()),
     GetPage(name: changePassword, page: () => Changepassword()),
+    GetPage(name: editeProfile, page: () => Editprofie()),
     // GetPage(name: profileDetails, page: () => ProfileDetailsScreen()),
   ];
 }

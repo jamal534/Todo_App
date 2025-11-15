@@ -21,6 +21,12 @@ class AssetPath {
   static const String email = 'assetes/images/email.png';
   static const String location = 'assetes/images/location.png';
   static const String songMail = 'assetes/images/songemail.png';
+  static const String changeUserProfile = 'assetes/images/userProfile.png';
+  static const String camaraIcon = 'assetes/images/camara_icon.png';
+  static const String cardImage = 'assetes/images/card_image.png';
+  static const String storeWrite = 'assetes/images/store_write.png';
+  static const String taskTile = 'assetes/images/task_title.png';
+  static const String taskDescription = 'assetes/images/task_descripton.png';
 
 
   //>>>>>>>>>>>>>>>>>>> Icons <<<<<<<<<<<//
@@ -31,5 +37,7 @@ class AssetPath {
   static const String lockIcon = 'assetes/icons/lockIcon.png';
   static const String deleteIcon = 'assetes/icons/deleteicon.png';
   static const String resizeIcon = 'assetes/icons/resize_icon.png';
+  static const String task_Delete_Icon = 'assetes/icons/delet_icon.png';
+  static const String task_edite_icon = 'assetes/icons/edite_icon.png';
 
 }

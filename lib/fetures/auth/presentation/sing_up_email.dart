@@ -53,7 +53,7 @@ class SingUpEmail extends StatelessWidget {
             SizedBox(height: 50.h,),
             CustomBtn(text: "Send",
               onPressed: (){
-                Get.toNamed(AppRoute.singUpOtp);
+
               }, showImage: false,
             ),
             SizedBox(height: 60.h,)

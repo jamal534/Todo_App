@@ -18,7 +18,7 @@ class CustomContainerFiled extends StatelessWidget {
       height: 50.h,
       width: double.infinity,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(6.r),
+        borderRadius: BorderRadius.circular(10.r),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.1),
@@ -43,6 +43,20 @@ class CustomContainerFiled extends StatelessWidget {
             fontSize: 16.sp,
             fontWeight: FontWeight.w400,
             color: Color(0xFF6B7280),
+          ),
+          enabledBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(10.r),
+            borderSide: const BorderSide(
+              color: Color(0xFFF7FFEF),
+              width: 1,
+            ),
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(10.r),
+            borderSide: const BorderSide(
+              color: Color(0xFFF7FFEF), // focused হলে নীল দেখাবে
+              width: 1.5,
+            ),
           ),
         ),
       ),

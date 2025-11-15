@@ -69,13 +69,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:spark_tech_task/core/global/customBtn.dart';
-
 import '../../../../core/global/custom_container_filed.dart';
 import '../../../../core/global/custom_text_popins.dart';
 import '../../../../core/utils/asset_path.dart';
 import '../../../navBar/controller/nab_var_controller.dart';
 import '../../controller/minMaxfield_controller.dart';
-import '../widget/custom_container.dart';
 import '../widget/expanding_text_filed.dart';
 
 class AddTask extends StatelessWidget {

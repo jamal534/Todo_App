@@ -5,10 +5,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:spark_tech_task/core/utils/asset_path.dart';
 import 'package:spark_tech_task/fetures/user_flow/presentation/screen/account_setting.dart';
 import 'package:spark_tech_task/fetures/user_flow/presentation/screen/privacyPolyci.dart';
-import 'package:spark_tech_task/fetures/user_flow/presentation/screen/profile_details.dart';
 import 'package:spark_tech_task/fetures/user_flow/presentation/screen/trems&cndition.dart';
 import '../../../navBar/controller/nab_var_controller.dart';
 import 'Help_screen.dart';
+import 'myProfile.dart';
 
 
 class ProfileScreen extends StatelessWidget {
